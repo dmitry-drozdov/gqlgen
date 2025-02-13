@@ -4,13 +4,13 @@ package federation
 import (
 	"testing"
 
-	"github.com/99designs/gqlgen/graphql/handler/transport"
+	"github.com/dmitry-drozdov/gqlgen/graphql/handler/transport"
 	"github.com/stretchr/testify/require"
 
-	"github.com/99designs/gqlgen/client"
-	"github.com/99designs/gqlgen/graphql/handler"
-	"github.com/99designs/gqlgen/plugin/federation/testdata/usefunctionsyntaxforexecutioncontext"
-	"github.com/99designs/gqlgen/plugin/federation/testdata/usefunctionsyntaxforexecutioncontext/generated"
+	"github.com/dmitry-drozdov/gqlgen/client"
+	"github.com/dmitry-drozdov/gqlgen/graphql/handler"
+	"github.com/dmitry-drozdov/gqlgen/plugin/federation/testdata/usefunctionsyntaxforexecutioncontext"
+	"github.com/dmitry-drozdov/gqlgen/plugin/federation/testdata/usefunctionsyntaxforexecutioncontext/generated"
 )
 
 func TestFederationWithUseFunctionSyntaxForExecutionContext(t *testing.T) {

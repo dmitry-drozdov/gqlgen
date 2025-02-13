@@ -17,11 +17,11 @@ import (
 	"github.com/vektah/gqlparser/v2"
 	"github.com/vektah/gqlparser/v2/ast"
 
-	"github.com/99designs/gqlgen/client"
-	"github.com/99designs/gqlgen/graphql"
-	"github.com/99designs/gqlgen/graphql/handler"
-	"github.com/99designs/gqlgen/graphql/handler/testserver"
-	"github.com/99designs/gqlgen/graphql/handler/transport"
+	"github.com/dmitry-drozdov/gqlgen/client"
+	"github.com/dmitry-drozdov/gqlgen/graphql"
+	"github.com/dmitry-drozdov/gqlgen/graphql/handler"
+	"github.com/dmitry-drozdov/gqlgen/graphql/handler/testserver"
+	"github.com/dmitry-drozdov/gqlgen/graphql/handler/transport"
 )
 
 type ckey string

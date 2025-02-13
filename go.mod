@@ -1,4 +1,4 @@
-module github.com/99designs/gqlgen
+module github.com/dmitry-drozdov/gqlgen
 
 go 1.22.1
 

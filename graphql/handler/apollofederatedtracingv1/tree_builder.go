@@ -10,9 +10,9 @@ import (
 
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/99designs/gqlgen/graphql"
-	"github.com/99designs/gqlgen/graphql/handler/apollofederatedtracingv1/generated"
-	tracing_logger "github.com/99designs/gqlgen/graphql/handler/apollofederatedtracingv1/logger"
+	"github.com/dmitry-drozdov/gqlgen/graphql"
+	"github.com/dmitry-drozdov/gqlgen/graphql/handler/apollofederatedtracingv1/generated"
+	tracing_logger "github.com/dmitry-drozdov/gqlgen/graphql/handler/apollofederatedtracingv1/logger"
 	"github.com/vektah/gqlparser/v2/gqlerror"
 )
 

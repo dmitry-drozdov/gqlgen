@@ -5,12 +5,12 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/99designs/gqlgen/graphql/handler"
-	"github.com/99designs/gqlgen/graphql/handler/debug"
-	"github.com/99designs/gqlgen/graphql/handler/transport"
-	"github.com/99designs/gqlgen/graphql/playground"
-	"github.com/99designs/gqlgen/plugin/federation/testdata/computedrequires"
-	"github.com/99designs/gqlgen/plugin/federation/testdata/computedrequires/generated"
+	"github.com/dmitry-drozdov/gqlgen/graphql/handler"
+	"github.com/dmitry-drozdov/gqlgen/graphql/handler/debug"
+	"github.com/dmitry-drozdov/gqlgen/graphql/handler/transport"
+	"github.com/dmitry-drozdov/gqlgen/graphql/playground"
+	"github.com/dmitry-drozdov/gqlgen/plugin/federation/testdata/computedrequires"
+	"github.com/dmitry-drozdov/gqlgen/plugin/federation/testdata/computedrequires/generated"
 )
 
 const defaultPort = "4003"

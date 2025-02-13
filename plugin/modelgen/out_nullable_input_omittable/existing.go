@@ -1,7 +1,7 @@
 package out_nullable_input_omittable
 
 import (
-	"github.com/99designs/gqlgen/graphql"
+	"github.com/dmitry-drozdov/gqlgen/graphql"
 )
 
 type ExistingType struct {

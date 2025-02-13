@@ -144,15 +144,15 @@ autobind:
 models:
   ID:
     model:
-      - github.com/99designs/gqlgen/graphql.ID
-      - github.com/99designs/gqlgen/graphql.Int
-      - github.com/99designs/gqlgen/graphql.Int64
-      - github.com/99designs/gqlgen/graphql.Int32
+      - github.com/dmitry-drozdov/gqlgen/graphql.ID
+      - github.com/dmitry-drozdov/gqlgen/graphql.Int
+      - github.com/dmitry-drozdov/gqlgen/graphql.Int64
+      - github.com/dmitry-drozdov/gqlgen/graphql.Int32
   # gqlgen provides a default GraphQL UUID convenience wrapper for github.com/google/uuid
   # but you can override this to provide your own GraphQL UUID implementation
   UUID:
     model:
-      - github.com/99designs/gqlgen/graphql.UUID
+      - github.com/dmitry-drozdov/gqlgen/graphql.UUID
 
   # The GraphQL spec explicitly states that the Int type is a signed 32-bit
   # integer. Using Go int or int64 to represent it can lead to unexpected
@@ -165,11 +165,11 @@ models:
   # do not need to worry about interoperability and only expect small numbers.
   Int:
     model:
-      - github.com/99designs/gqlgen/graphql.Int32
+      - github.com/dmitry-drozdov/gqlgen/graphql.Int32
   Int64:
     model:
-      - github.com/99designs/gqlgen/graphql.Int
-      - github.com/99designs/gqlgen/graphql.Int64
+      - github.com/dmitry-drozdov/gqlgen/graphql.Int
+      - github.com/dmitry-drozdov/gqlgen/graphql.Int64
 ```
 
 Everything has defaults, so add things as you need.
@@ -202,7 +202,7 @@ directive @goTag(
 > Here be dragons
 >
 > gqlgen doesnt currently support user-configurable directives for SCALAR, ENUM, INTERFACE or UNION. This only works
-> for internal directives. You can track the progress [here](https://github.com/99designs/gqlgen/issues/760)
+> for internal directives. You can track the progress [here](https://github.com/dmitry-drozdov/gqlgen/issues/760)
 
 Now you can use these directives when defining types in your schema:
 

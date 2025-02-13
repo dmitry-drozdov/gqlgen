@@ -6,11 +6,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/99designs/gqlgen/_examples/deferexample"
-	"github.com/99designs/gqlgen/graphql/handler"
-	"github.com/99designs/gqlgen/graphql/handler/extension"
-	"github.com/99designs/gqlgen/graphql/handler/transport"
-	"github.com/99designs/gqlgen/graphql/playground"
+	"github.com/dmitry-drozdov/gqlgen/_examples/deferexample"
+	"github.com/dmitry-drozdov/gqlgen/graphql/handler"
+	"github.com/dmitry-drozdov/gqlgen/graphql/handler/extension"
+	"github.com/dmitry-drozdov/gqlgen/graphql/handler/transport"
+	"github.com/dmitry-drozdov/gqlgen/graphql/playground"
 	"github.com/gorilla/websocket"
 	"github.com/rs/cors"
 )

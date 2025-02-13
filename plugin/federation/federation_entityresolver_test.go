@@ -8,13 +8,13 @@ import (
 
 	"github.com/goccy/go-json"
 
-	"github.com/99designs/gqlgen/graphql/handler/transport"
+	"github.com/dmitry-drozdov/gqlgen/graphql/handler/transport"
 	"github.com/stretchr/testify/require"
 
-	"github.com/99designs/gqlgen/client"
-	"github.com/99designs/gqlgen/graphql/handler"
-	"github.com/99designs/gqlgen/plugin/federation/testdata/entityresolver"
-	"github.com/99designs/gqlgen/plugin/federation/testdata/entityresolver/generated"
+	"github.com/dmitry-drozdov/gqlgen/client"
+	"github.com/dmitry-drozdov/gqlgen/graphql/handler"
+	"github.com/dmitry-drozdov/gqlgen/plugin/federation/testdata/entityresolver"
+	"github.com/dmitry-drozdov/gqlgen/plugin/federation/testdata/entityresolver/generated"
 )
 
 func TestEntityResolver(t *testing.T) {

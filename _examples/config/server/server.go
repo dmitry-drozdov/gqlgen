@@ -4,10 +4,10 @@ import (
 	"log"
 	"net/http"
 
-	todo "github.com/99designs/gqlgen/_examples/config"
-	"github.com/99designs/gqlgen/graphql/handler"
-	"github.com/99designs/gqlgen/graphql/handler/transport"
-	"github.com/99designs/gqlgen/graphql/playground"
+	todo "github.com/dmitry-drozdov/gqlgen/_examples/config"
+	"github.com/dmitry-drozdov/gqlgen/graphql/handler"
+	"github.com/dmitry-drozdov/gqlgen/graphql/handler/transport"
+	"github.com/dmitry-drozdov/gqlgen/graphql/playground"
 )
 
 func main() {
