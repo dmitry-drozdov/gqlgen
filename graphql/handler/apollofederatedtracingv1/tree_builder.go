@@ -2,10 +2,11 @@ package apollofederatedtracingv1
 
 import (
 	"context"
-	"encoding/json"
 	"errors"
 	"sync"
 	"time"
+
+	"github.com/goccy/go-json"
 
 	"google.golang.org/protobuf/types/known/timestamppb"
 

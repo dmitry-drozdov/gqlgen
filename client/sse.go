@@ -3,11 +3,12 @@ package client
 import (
 	"bufio"
 	"context"
-	"encoding/json"
 	"fmt"
 	"net/http/httptest"
 	"net/textproto"
 	"strings"
+
+	"github.com/goccy/go-json"
 )
 
 type SSE struct {

@@ -3,7 +3,6 @@ package singlefile
 import (
 	"cmp"
 	"context"
-	"encoding/json"
 	"math/rand"
 	"reflect"
 	"slices"
@@ -11,6 +10,8 @@ import (
 	"strings"
 	"testing"
 	"time"
+
+	"github.com/goccy/go-json"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

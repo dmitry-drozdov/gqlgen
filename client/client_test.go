@@ -2,7 +2,6 @@ package client_test
 
 import (
 	"bytes"
-	"encoding/json"
 	"fmt"
 	"io"
 	"mime/multipart"
@@ -11,6 +10,8 @@ import (
 	"reflect"
 	"testing"
 	"time"
+
+	"github.com/goccy/go-json"
 
 	"github.com/go-viper/mapstructure/v2"
 	"github.com/stretchr/testify/assert"
