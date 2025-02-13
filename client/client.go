@@ -4,12 +4,13 @@ package client
 
 import (
 	"bytes"
-	"encoding/json"
 	"fmt"
 	"io"
 	"net/http"
 	"net/http/httptest"
 	"regexp"
+
+	"github.com/goccy/go-json"
 
 	"github.com/go-viper/mapstructure/v2"
 )

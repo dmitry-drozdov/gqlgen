@@ -2,11 +2,12 @@ package debug
 
 import (
 	"context"
-	"encoding/json"
 	"fmt"
 	"io"
 	"os"
 	"strings"
+
+	"github.com/goccy/go-json"
 
 	"github.com/logrusorgru/aurora/v4"
 	"github.com/mattn/go-colorable"

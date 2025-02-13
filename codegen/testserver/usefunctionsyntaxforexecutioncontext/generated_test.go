@@ -5,9 +5,10 @@ package usefunctionsyntaxforexecutioncontext
 
 import (
 	"context"
-	"encoding/json"
 	"testing"
 	"time"
+
+	"github.com/goccy/go-json"
 
 	"github.com/99designs/gqlgen/graphql/handler/transport"
 	"github.com/stretchr/testify/require"

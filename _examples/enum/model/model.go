@@ -1,8 +1,9 @@
 package model
 
 import (
-	"encoding/json"
 	"fmt"
+
+	"github.com/goccy/go-json"
 )
 
 // this file is provided as an example for int-based enums

@@ -2,10 +2,11 @@
 package federation
 
 import (
-	"encoding/json"
 	"strconv"
 	"strings"
 	"testing"
+
+	"github.com/goccy/go-json"
 
 	"github.com/99designs/gqlgen/graphql/handler/transport"
 	"github.com/stretchr/testify/require"

@@ -1,9 +1,10 @@
 package playground
 
 import (
-	"encoding/json"
 	"html/template"
 	"net/http"
+
+	"github.com/goccy/go-json"
 )
 
 var altairPage = template.Must(template.New("altair").Parse(`<!doctype html>
