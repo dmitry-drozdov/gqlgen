@@ -58,12 +58,12 @@ autobind:
 models:
   ID:
     model:
-      - github.com/99designs/gqlgen/graphql.ID
-      - github.com/99designs/gqlgen/graphql.Int
-      - github.com/99designs/gqlgen/graphql.Int64
-      - github.com/99designs/gqlgen/graphql.Int32
+      - github.com/dmitry-drozdov/gqlgen/graphql.ID
+      - github.com/dmitry-drozdov/gqlgen/graphql.Int
+      - github.com/dmitry-drozdov/gqlgen/graphql.Int64
+      - github.com/dmitry-drozdov/gqlgen/graphql.Int32
   Int:
     model:
-      - github.com/99designs/gqlgen/graphql.Int
-      - github.com/99designs/gqlgen/graphql.Int64
-      - github.com/99designs/gqlgen/graphql.Int32
+      - github.com/dmitry-drozdov/gqlgen/graphql.Int
+      - github.com/dmitry-drozdov/gqlgen/graphql.Int64
+      - github.com/dmitry-drozdov/gqlgen/graphql.Int32

@@ -4,13 +4,13 @@ package federation
 import (
 	"testing"
 
-	"github.com/99designs/gqlgen/graphql/handler/transport"
+	"github.com/dmitry-drozdov/gqlgen/graphql/handler/transport"
 	"github.com/stretchr/testify/require"
 
-	"github.com/99designs/gqlgen/client"
-	"github.com/99designs/gqlgen/graphql/handler"
-	"github.com/99designs/gqlgen/plugin/federation/testdata/computedrequires"
-	"github.com/99designs/gqlgen/plugin/federation/testdata/computedrequires/generated"
+	"github.com/dmitry-drozdov/gqlgen/client"
+	"github.com/dmitry-drozdov/gqlgen/graphql/handler"
+	"github.com/dmitry-drozdov/gqlgen/plugin/federation/testdata/computedrequires"
+	"github.com/dmitry-drozdov/gqlgen/plugin/federation/testdata/computedrequires/generated"
 )
 
 func TestComputedRequires(t *testing.T) {

@@ -16,12 +16,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/99designs/gqlgen/client"
-	gencompliant "github.com/99designs/gqlgen/codegen/testserver/compliant-int/generated-compliant-strict"
-	gendefault "github.com/99designs/gqlgen/codegen/testserver/compliant-int/generated-default"
-	"github.com/99designs/gqlgen/graphql"
-	"github.com/99designs/gqlgen/graphql/handler"
-	"github.com/99designs/gqlgen/graphql/handler/transport"
+	"github.com/dmitry-drozdov/gqlgen/client"
+	gencompliant "github.com/dmitry-drozdov/gqlgen/codegen/testserver/compliant-int/generated-compliant-strict"
+	gendefault "github.com/dmitry-drozdov/gqlgen/codegen/testserver/compliant-int/generated-default"
+	"github.com/dmitry-drozdov/gqlgen/graphql"
+	"github.com/dmitry-drozdov/gqlgen/graphql/handler"
+	"github.com/dmitry-drozdov/gqlgen/graphql/handler/transport"
 	"github.com/stretchr/testify/require"
 )
 

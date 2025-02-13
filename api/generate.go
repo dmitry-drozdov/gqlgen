@@ -5,12 +5,12 @@ import (
 	"regexp"
 	"syscall"
 
-	"github.com/99designs/gqlgen/codegen"
-	"github.com/99designs/gqlgen/codegen/config"
-	"github.com/99designs/gqlgen/plugin"
-	"github.com/99designs/gqlgen/plugin/federation"
-	"github.com/99designs/gqlgen/plugin/modelgen"
-	"github.com/99designs/gqlgen/plugin/resolvergen"
+	"github.com/dmitry-drozdov/gqlgen/codegen"
+	"github.com/dmitry-drozdov/gqlgen/codegen/config"
+	"github.com/dmitry-drozdov/gqlgen/plugin"
+	"github.com/dmitry-drozdov/gqlgen/plugin/federation"
+	"github.com/dmitry-drozdov/gqlgen/plugin/modelgen"
+	"github.com/dmitry-drozdov/gqlgen/plugin/resolvergen"
 )
 
 var (

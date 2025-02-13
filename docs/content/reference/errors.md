@@ -22,7 +22,7 @@ import (
 	"errors"
 
 	"github.com/vektah/gqlparser/v2/gqlerror"
-	"github.com/99designs/gqlgen/graphql"
+	"github.com/dmitry-drozdov/gqlgen/graphql"
 )
 
 // DoThings add errors to the stack.
@@ -72,7 +72,7 @@ import (
 	"errors"
 
 	"github.com/vektah/gqlparser/v2/gqlerror"
-	"github.com/99designs/gqlgen/graphql"
+	"github.com/dmitry-drozdov/gqlgen/graphql"
 )
 
 var errSomethingWrong = errors.New("some validation failed")
@@ -132,8 +132,8 @@ import (
 	"errors"
 
 	"github.com/vektah/gqlparser/v2/gqlerror"
-	"github.com/99designs/gqlgen/graphql"
-	"github.com/99designs/gqlgen/graphql/handler"
+	"github.com/dmitry-drozdov/gqlgen/graphql"
+	"github.com/dmitry-drozdov/gqlgen/graphql/handler"
 )
 
 func main() {

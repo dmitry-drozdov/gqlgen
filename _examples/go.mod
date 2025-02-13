@@ -1,11 +1,11 @@
-module github.com/99designs/gqlgen/_examples
+module github.com/dmitry-drozdov/gqlgen/_examples
 
-go 1.22.5
+go 1.22.1
 
-replace github.com/99designs/gqlgen => ../
+replace github.com/dmitry-drozdov/gqlgen => ../
 
 require (
-	github.com/99designs/gqlgen v0.17.57
+	github.com/dmitry-drozdov/gqlgen v0.17.57
 	github.com/go-viper/mapstructure/v2 v2.2.1
 	github.com/goccy/go-json v0.10.5
 	github.com/google/uuid v1.6.0

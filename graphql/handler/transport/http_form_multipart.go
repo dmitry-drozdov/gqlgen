@@ -8,7 +8,7 @@ import (
 
 	"github.com/goccy/go-json"
 
-	"github.com/99designs/gqlgen/graphql"
+	"github.com/dmitry-drozdov/gqlgen/graphql"
 )
 
 // MultipartForm the Multipart request spec https://github.com/jaydenseric/graphql-multipart-request-spec

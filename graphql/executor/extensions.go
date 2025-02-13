@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/99designs/gqlgen/graphql"
+	"github.com/dmitry-drozdov/gqlgen/graphql"
 )
 
 // Use adds the given extension to this Executor.
